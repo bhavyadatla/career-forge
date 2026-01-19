@@ -27,7 +27,7 @@ interface ResumePreviewProps {
   skills: string[];
 }
 
-export function ResumePreview({
+export default function ResumePreview({
   fullName,
   email,
   phone,

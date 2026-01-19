@@ -42,7 +42,7 @@ interface ResumeFormProps {
   isLoading?: boolean;
 }
 
-export function ResumeForm({ onSave, initialData, isLoading = false }: ResumeFormProps) {
+export default function ResumeForm({ onSave, initialData, isLoading = false }: ResumeFormProps) {
   const [formData, setFormData] = useState<FormData>(
     initialData || {
       fullName: '',

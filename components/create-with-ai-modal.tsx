@@ -28,7 +28,7 @@ export interface AIGenerationData {
   experience: string;
 }
 
-export function CreateWithAIModal({
+export default function CreateWithAIModal({
   open,
   onOpenChange,
   onGenerate,

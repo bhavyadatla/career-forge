@@ -16,7 +16,7 @@ interface ATSReportProps {
   suggestions: string[];
 }
 
-export function ATSReport({
+export default function ATSReport({
   score,
   matchScore,
   readabilityScore,
