@@ -1,9 +1,9 @@
 import { NextRequest, NextResponse } from 'next/server'
 
-// Demo middleware - client-side auth check handles protected routes
-// This middleware just passes through all requests
+// Demo proxy - client-side auth check handles protected routes
+// This proxy just passes through all requests
 
-export async function proxy(request: NextRequest) {
+export function proxy(request: NextRequest) {
   return NextResponse.next()
 }
 
